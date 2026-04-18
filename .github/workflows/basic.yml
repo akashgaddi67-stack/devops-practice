@@ -9,3 +9,7 @@ jobs:
     steps:
       - name: Fixed Step
         run: echo "working"
+      - name: Print Message
+        run: echo "Hello Devops"
+      - name: List Files
+        run: ls
