@@ -1,8 +1,11 @@
-yname: My First Pipeline
+name: ci
+
 on: [push]
+
 jobs:
   build:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
+
     steps:
-      - name: Print Message
-      - run: echo "hello"
+      - name: Fixed Step
+        run: echo "working"
